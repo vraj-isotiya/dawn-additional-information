@@ -53,7 +53,14 @@
           "type": "product_info",
           "settings": {
             "label": "Shipping",
-            "content": "<p>Get Your Orders Fast with Guaranteed Shipping in One Week.</p>"
+            "content": "<p>Gfree delivery for transactions of Rs. 5000 and above</p>"
+          }
+        },
+        "product_info_8Kqg9p": {
+          "type": "product_info",
+          "settings": {
+            "label": "Care Instructions",
+            "content": "<p>Machine wash cold with like colors<br/>Do not bleach<br/>Tumble dry low or line dry<br/>Warm iron if needed</p>"
           }
         },
         "share": {
@@ -72,6 +79,7 @@
         "buy_buttons",
         "description",
         "product_info_YJQf4K",
+        "product_info_8Kqg9p",
         "share"
       ],
       "settings": {
