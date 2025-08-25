@@ -1,0 +1,26 @@
+.pdp-accordion__summary {
+  list-style: none;
+  cursor: pointer;
+  padding: 0.8rem 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.pdp-accordion__summary::-webkit-details-marker {
+  display: none;
+}
+
+/* Carrot icon rotation */
+.pdp-accordion__summary svg {
+  transition: transform 0.3s ease;
+}
+
+.pdp-accordion__item[open] .pdp-accordion__summary svg {
+  transform: rotate(180deg);
+}
+
+.pdp-accordion__content {
+  padding: 0.6rem 0 1rem;
+}
